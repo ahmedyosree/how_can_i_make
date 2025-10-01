@@ -1,7 +1,9 @@
 import 'package:how_can_i_make/models/user.dart';
-import 'firebase_auth_service.dart';
-import 'firestore_service.dart';
-import 'local_storage.dart';
+
+import '../../../services/local_storage.dart';
+import '../../../services/firebase_auth_service.dart';
+import '../../../services/firestore_service.dart';
+
 
 class AuthRepository {
   final FirebaseAuthService _authService;

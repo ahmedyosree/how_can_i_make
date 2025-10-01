@@ -2,9 +2,9 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:how_can_i_make/core/theme.dart';
-import 'firebase_options.dart';
-import 'home_page.dart';
-import 'my_profile_page.dart';
+import 'core/firebase_options.dart';
+import 'features/auth/ui/home_page.dart';
+import 'features/auth/ui/my_profile_page.dart';
 import 'core/util.dart';
 
   void main() async {
